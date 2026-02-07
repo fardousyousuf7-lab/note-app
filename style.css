@@ -1,0 +1,83 @@
+*{
+  box-sizing:border-box;
+  font-family:'Segoe UI', sans-serif;
+}
+
+body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  background:linear-gradient(135deg,#ffe4ec,#fbcfe8);
+}
+
+.app{
+  width:360px;
+  background:linear-gradient(160deg,#ec4899,#db2777); /* PINK APP */
+  padding:25px;
+  border-radius:22px;
+  box-shadow:0 20px 45px rgba(0,0,0,0.5);
+}
+
+.app h2{
+  text-align:center;
+  color:#fff;
+  margin-bottom:15px;
+  letter-spacing:1px;
+}
+
+textarea{
+  width:100%;
+  height:95px;
+  border-radius:16px;
+  padding:14px;
+  border:none;
+  outline:none;
+  resize:none;
+  font-size:16px;
+  margin-bottom:15px;
+  background:#fff;
+  color:#831843;
+  box-shadow: inset 0 3px 8px rgba(0,0,0,0.25);
+}
+
+button{
+  width:100%;
+  height:46px;
+  border:none;
+  border-radius:16px;
+  background:#111827; /* dark button */
+  color:#fff;
+  font-size:18px;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+button:hover{
+  background:#1f2937;
+  transform:translateY(-2px);
+}
+
+.note{
+  background:#fff;
+  color:#831843;
+  padding:14px;
+  border-radius:16px;
+  margin-top:15px;
+  position:relative;
+  box-shadow:0 6px 18px rgba(0,0,0,0.4);
+}
+
+.delete{
+  position:absolute;
+  top:8px;
+  right:10px;
+  background:#dc2626;
+  border:none;
+  border-radius:10px;
+  padding:4px 9px;
+  color:#fff;
+  cursor:pointer;
+  font-size:12px;
+}
