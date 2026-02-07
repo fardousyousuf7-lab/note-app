@@ -13,7 +13,7 @@ body{
 
 .app{
   width:360px;
-  background:linear-gradient(160deg,#ec4899,#db2777); /* PINK APP */
+  background:linear-gradient(160deg,#ec4899,#db2777);
   padding:25px;
   border-radius:22px;
   box-shadow:0 20px 45px rgba(0,0,0,0.5);
@@ -46,7 +46,7 @@ button{
   height:46px;
   border:none;
   border-radius:16px;
-  background:#111827; /* dark button */
+  background:#111827;
   color:#fff;
   font-size:18px;
   font-weight:600;
@@ -62,22 +62,28 @@ button:hover{
 .note{
   background:#fff;
   color:#831843;
-  padding:14px;
+  padding:14px 40px 14px 16px;
   border-radius:16px;
   margin-top:15px;
   position:relative;
   box-shadow:0 6px 18px rgba(0,0,0,0.4);
+  line-height:1.4;
+  font-size:15px;
 }
 
 .delete{
   position:absolute;
-  top:8px;
+  top:10px;
   right:10px;
   background:#dc2626;
   border:none;
-  border-radius:10px;
-  padding:4px 9px;
+  border-radius:50%;
+  width:26px;
+  height:26px;
   color:#fff;
   cursor:pointer;
-  font-size:12px;
+  font-size:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
